@@ -1,0 +1,21 @@
+<p>Student Name</p>
+<input type="text"
+       class="form-control"
+       (input)="onUpdateStudentName($event)">
+
+<input type="text"
+       class="form-control"
+       [ngModel]="studentNewName">
+<p>{{ studentNewName }}</p>
+
+<button type="button" class="btn btn-primary"
+        [disabled]="!allowNewStudent"
+        onClick="onCreateStudent()">Add Student</button>
+<p>{{ studentCreationStatus }}</p>
+<!--<p [innerText]="allowNewStudent"></p>-->
+
+<p>Student Name: {{ studentName }} with ID: {{ studentId }}</p>
+
+<p>Student Name: {{ onGetName() }} with ID: {{ onGetId() }}</p>
+
+<hr>
