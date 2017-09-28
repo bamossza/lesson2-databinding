@@ -10,7 +10,7 @@
 
 <button type="button" class="btn btn-primary"
         [disabled]="!allowNewStudent"
-        onClick="onCreateStudent()">Add Student</button>
+        (click)="onCreateStudent()">Add Student</button>
 <p>{{ studentCreationStatus }}</p>
 <!--<p [innerText]="allowNewStudent"></p>-->
 
