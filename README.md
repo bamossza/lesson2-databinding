@@ -1,5 +1,7 @@
 # Lesson2 Databinding
 
+## [Article...Click](https://medium.com/angular-in-thailand/%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-2-getting-started-with-angular-d76adde44819)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.1.
 
 ## Development server
